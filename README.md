@@ -1,6 +1,5 @@
 # SpotifyPlaylistTimeMachine
 The program creates a Spotify playlist of the 100 most popular songs by user-entered date. The search is carried out on the website https://www.billboard.com/, using the Beautiful Soup library. Some of the songs on Spotify are not available, so the final playlist may contain less than 100 songs.
-
 All queries are automatically saved in the database for faster work when the query is repeated. Because the history is not changed, only playlists are saved in the database. The Spotyfy playlist is generated over and over again as the platform can add / remove content
 
 
@@ -21,4 +20,3 @@ Your .env file should look like:
 
 export SPOTIPY_CLIENT_ID=your_id_here
 export SPOTIPY_CLIENT_SECRET=your_secret_here
-
